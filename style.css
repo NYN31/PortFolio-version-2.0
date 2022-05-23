@@ -102,29 +102,29 @@ header .navbar ul li a:hover{
     display: none;
 }
 
-/* home section */
+/* about section */
 section{
     min-height: 100vh;
     padding: 1rem;
 }
-.home{
+.about{
     display: flex;
     justify-content: center;
     flex-flow: column;
     padding: 0 15rem;
 }
-.home h3{
+.about h3{
     font-size: 2.5rem;
     color: #fff;
 }
-.home h1{
+.about h1{
     font-size: 5rem;
     color: #fff;
 }
-.home h1 span{
+.about h1 span{
     color: #eb6003;
 }
-.home p{
+.about p{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     color: #eee;
@@ -161,53 +161,6 @@ section{
 }
 .heading span{
     color: #eb6003;
-}
-/* style about section */
-.row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 1rem 0;
-}
-.information{
-    flex: 1 1 48rem;
-    padding: 2rem 1rem;
-    padding-left: 6rem;
-}
-.information  h3{
-    font-size: 2rem;
-    color: #eb6003;
-    padding: 1rem 0;
-    font-weight: normal;
-}
-.information h3 span{
-    color: #eee;
-    padding: 0.5rem;
-    text-transform: capitalize;
-}
-.counter{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex: 1 1 48rem;
-}
-.counter .box{
-    width: 15rem;
-    height: 6rem;
-    background-color: rgb(22, 49, 22);
-    text-align: center;
-    padding: .4rem;
-    margin: .4rem;
-    border-radius: 5px;
-}
-.box img{
-    width: 5rem;
-    height: 5rem;
-}
-.box:hover{
-    background:#285339;
-
 }
 
 /* education style */
