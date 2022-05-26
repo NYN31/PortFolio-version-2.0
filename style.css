@@ -85,7 +85,7 @@ header .navbar ul li a{
     text-decoration: none;
 }
 header .navbar ul li a:hover{
-    background: #eb6003;
+    background: #EE0A3C;
     color: #111;
 }
 
@@ -122,14 +122,20 @@ section{
     color: #fff;
 }
 .about h1 span{
-    color: #eb6003;
+    color: #EE0A3C;
 }
-.about p{
+.about .description{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
-    color: #eee;
-    padding: 1rem 0;
+    color: #EE0A3C;
+    padding: 2rem 2rem;
     text-align: justify;
+    border: 5px solid #EE0A3C;
+    border-radius: 10px;
+}
+.about .description:hover{
+    background-color: #FFFFFF;
+    color: #000000;
 }
 /* Button design */
 .btn{
@@ -146,7 +152,7 @@ section{
     font-size: 1.8rem;
 }
 .btn:hover{
-    background: #eb6003;
+    background: #EE0A3C;
     
 }
 
@@ -161,6 +167,53 @@ section{
 }
 .heading span{
     color: #eb6003;
+}
+/* style about section */
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+.information{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+.information  h3{
+    font-size: 2rem;
+    color: #eb6003;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.information h3 span{
+    color: #eee;
+    padding: 0.5rem;
+    text-transform: capitalize;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1 48rem;
+}
+.counter .box{
+    width: 15rem;
+    height: 6rem;
+    background-color: rgb(22, 49, 22);
+    text-align: center;
+    padding: .4rem;
+    margin: .4rem;
+    border-radius: 5px;
+}
+.box img{
+    width: 5rem;
+    height: 5rem;
+}
+.box:hover{
+    background:#285339;
+
 }
 
 /* education style */
