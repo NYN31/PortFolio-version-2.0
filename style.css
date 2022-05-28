@@ -183,8 +183,6 @@ section{
     padding-left: 10rem;
 }
 .individualSkills {
-    display: flex;
-    flex-direction: row;
     padding-top: 2rem;
 }
 .individualSkills .topic-heading {
