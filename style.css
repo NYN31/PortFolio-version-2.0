@@ -55,7 +55,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: .5rem solid #eb6003;
+    border: .5rem solid #00FFFF;
 }
 header .user .name{
     font-size: 3.5rem;
@@ -85,7 +85,7 @@ header .navbar ul li a{
     text-decoration: none;
 }
 header .navbar ul li a:hover{
-    background: #EE0A3C;
+    background: #00FFFF;
     color: #111;
 }
 
@@ -159,10 +159,10 @@ section{
 .about .description{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
-    color: #EE0A3C;
+    color: #00FFFF;
     padding: 2rem 2rem;
     text-align: justify;
-    border: 5px solid #EE0A3C;
+    border: 5px solid #00FFFF;
     border-radius: 10px;
 }
 .about .description:hover{
@@ -187,7 +187,7 @@ section{
 }
 .individualSkills .topic-heading {
     padding-right: 2rem;
-    color: #EE0A3C;
+    color: #00FFFF;
 }
 
 
@@ -257,7 +257,7 @@ section{
 }
 .descript span{
     color: #222222;
-    background: #FFFFFF;
+    background: #00FFFF;
     font-size: 1.3rem;
     border-radius: 5rem;
     padding: 0.5rem 2.5rem;
@@ -336,7 +336,7 @@ section{
     padding: 1rem 0;
 }
 .c_info h3 i{
-    color: #eb6003;
+    color: #00FFFF;
     padding-right: 1rem;
 }
 form {
