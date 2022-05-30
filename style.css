@@ -105,11 +105,19 @@ header .navbar ul li a:hover{
 /* Button design */
 .btn{
     color: #000;
-    background-color: #00FFFF;
+    background-color: #FFFFFF;
     padding: 0.7rem 3rem;
     cursor: pointer;
     margin-top: 1rem;
     font-size: 2rem;
+    border-radius: 5rem;
+}
+.btn-small{
+    color: #000;
+    background-color: #00FFFF;
+    padding: 0.3rem 3rem;
+    cursor: pointer;
+    font-size: 1.5rem;
     border-radius: 5rem;
 }
 .btn i{
@@ -117,7 +125,7 @@ header .navbar ul li a:hover{
     font-size: 1.8rem;
 }
 .btn:hover{
-    background: #EE0A3C;
+    background: #00FFFF;
     
 }
 
@@ -164,7 +172,7 @@ section{
 .about .description{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
-    color: #00FFFF;
+    color: #FFFFFF;
     padding: 2rem 2rem;
     text-align: justify;
     border: 5px solid #000000;
@@ -191,58 +199,46 @@ section{
 .individualSkills {
     padding-top: 2rem;
 }
-.individualSkills .topic-heading {
+.topic-heading {
     padding-right: 2rem;
     color: #00FFFF;
+    font-weight: 900;
 }
 
 
-/* style about section */
-.row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 1rem 0;
+/* style Experience section */
+
+.experience-box {
+    padding-left: 5rem;
+    padding-top: 3rem;
 }
-.information{
-    flex: 1 1 48rem;
-    padding: 2rem 1rem;
-    padding-left: 6rem;
+.experience-box .individual-exp{
+    border: 2px solid #FFF;
+    padding: 2rem;
+    margin-bottom: 2rem;
 }
-.information  h3{
+.experience-box h1{
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+.experience-box h3{
     font-size: 2rem;
-    color: #eb6003;
-    padding: 1rem 0;
-    font-weight: normal;
+    color: #FFFFFF;
 }
-.information h3 span{
-    color: #eee;
-    padding: 0.5rem;
-    text-transform: capitalize;
+.experience-box p{
+    padding-top: 10px;
+    font-size: 1.5rem;
+    color: #FFFFFF;
 }
-.counter{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex: 1 1 48rem;
+.experience-box h3 i{
+    padding-right: 1.5rem;
+    color: #00FFFF;
 }
-.counter .box{
-    width: 15rem;
-    height: 6rem;
-    background-color: rgb(22, 49, 22);
-    text-align: center;
-    padding: .4rem;
-    margin: .4rem;
-    border-radius: 5px;
-}
-.box img{
-    width: 5rem;
-    height: 5rem;
-}
-.box:hover{
-    background:#285339;
-
+.experience-box ul {
+    padding-top: 10px;
+    padding-left: 5rem;
+    font-size: 2rem;
+    color: #FFFFFF;
 }
 
 /* education style */
@@ -433,6 +429,16 @@ form .box{
     }
     .skills-box{
         width: 100%;
+    }
+    .experience-box h1{
+        font-size: 2rem;
+    }
+    .experience-box h3{
+        font-size: 1.5rem;
+    }
+    .experience-box ul {
+        padding-left: 0;
+        font-size: 2rem;
     }
     form{
         margin: 3rem 0;
