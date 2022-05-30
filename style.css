@@ -38,7 +38,7 @@ header{
     z-index: 1000;
     height: 100%;
     width: 35rem;
-    background: #1a1a1a;
+    background: #C9C0BB;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,15 +55,15 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: .5rem solid #00FFFF;
+    border: .5rem solid #000;
 }
 header .user .name{
     font-size: 3.5rem;
-    color: #fff;
+    color: #000;
 }
-header .user .pone{
+header .user .appellation{
     font-size: 2rem;
-    color: #eee;
+    color: #000;
 }
     /* navbar style */
 header .navbar{
@@ -104,8 +104,8 @@ header .navbar ul li a:hover{
 
 /* Button design */
 .btn{
-    color: #fff;
-    background-color: #333;
+    color: #000;
+    background-color: #00FFFF;
     padding: 0.7rem 3rem;
     cursor: pointer;
     margin-top: 1rem;
@@ -134,11 +134,16 @@ header .navbar ul li a:hover{
     color: #EE0A3C;
 }
 
-/* about section */
+/* Section */
+
 section{
+    background-color: #583759;
     min-height: 100vh;
     padding: 1rem;
 }
+
+/* about section */
+
 .about{
     display: flex;
     justify-content: center;
@@ -162,13 +167,14 @@ section{
     color: #00FFFF;
     padding: 2rem 2rem;
     text-align: justify;
-    border: 5px solid #00FFFF;
+    border: 5px solid #000000;
     border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px #000;
 }
-.about .description:hover{
+/* .about .description:hover{
     background-color: #FFFFFF;
     color: #000000;
-}
+} */
 
 /* skill section */
 .skills {
