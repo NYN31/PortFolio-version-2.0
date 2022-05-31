@@ -136,10 +136,9 @@ header .navbar ul li a:hover{
     font-size: 4rem;
     padding: 1rem;
     border-bottom: .3rem solid rgb(48, 45, 45);
-    color: #fff;
 }
 .heading span{
-    color: #EE0A3C;
+    color: #EEE000;
 }
 
 /* Section */
@@ -167,7 +166,7 @@ section{
     color: #fff;
 }
 .about h1 span{
-    color: #EE0A3C;
+    color: #EEE000;
 }
 .about .description{
     background-color: #000000;
@@ -219,7 +218,7 @@ section{
 }
 .experience-box h1{
     font-size: 3rem;
-    color: #FFFFFF;
+    color: #E799A3;
 }
 .experience-box h3{
     font-size: 2rem;
@@ -256,7 +255,7 @@ section{
 }
 .project-box h1{
     font-size: 3rem;
-    color: #FFFFFF;
+    color: #E799A3;
 }
 .project-box h3{
     
@@ -296,7 +295,7 @@ section{
 }
 .descript h3{
     font-size: 2rem;
-    color: #000;
+    color: #f7d8dc;
     font-weight: 900;
     padding-top: 1.5rem;
 }
@@ -357,7 +356,7 @@ section{
     
 }
 .title{
-    color: #fff;
+    color: #f8dbda;
     font-size: 3rem;
     text-transform: uppercase;
     padding-bottom: 2rem;
