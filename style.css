@@ -170,19 +170,16 @@ section{
     color: #EE0A3C;
 }
 .about .description{
+    background-color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     color: #FFFFFF;
     padding: 2rem 2rem;
     text-align: justify;
-    border: 5px solid #000000;
+    border: 5px solid #FFFFFF;
     border-radius: 10px;
     box-shadow: 0px 5px 5px 0px #000;
 }
-/* .about .description:hover{
-    background-color: #FFFFFF;
-    color: #000000;
-} */
 
 /* skill section */
 .skills {
@@ -217,6 +214,8 @@ section{
     background-color: #000;
     padding: 2rem;
     margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px #000;
 }
 .experience-box h1{
     font-size: 3rem;
@@ -241,6 +240,35 @@ section{
     font-size: 2rem;
     color: #FFFFFF;
 }
+
+/* Project section style */
+.project-box {
+    padding-left: 5rem;
+    padding-top: 3rem;
+}
+.project-box .individual-project{
+    border: 2px solid #FFF;
+    background-color: #000;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px #000;
+}
+.project-box h1{
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+.project-box h3{
+    
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+.project-box p{
+    padding-top: 10px;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
 
 /* education style */
 .container{
@@ -393,6 +421,9 @@ form .box{
     .experience-box {
         padding-left: 0;
     }
+    .project-box {
+        padding-left: 0;
+    }
 }
 
 @media(max-width:768px){
@@ -418,6 +449,7 @@ form .box{
     }
     .heading{
         margin: 0 3rem;
+        font-size: 3rem;
     }
     .about {
         padding: 0 2rem;
@@ -449,6 +481,15 @@ form .box{
     .experience-box ul {
         padding-left: 3rem;
         font-size: 2rem;
+    }
+    .project-box {
+        padding-left: 0;
+    }
+    .project-box h1{
+        font-size: 2rem;
+    }
+    .project-box h3{
+        font-size: 1.5rem;
     }
     form{
         margin: 3rem 0;
